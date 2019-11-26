@@ -1,0 +1,26 @@
+header {
+background-color: #ffffff;
+width:100%;
+height: 100px;
+padding: 15px;
+box-shadow: 5px 5px 5px grey;
+font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+body {
+    background-image: url("dust_scratches.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+}
+
+
+#YourName {
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    width: 150px;
+    height: 50%;
+    margin-left: 40px;
+    margin-top: 65px;
+
+}
