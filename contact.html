@@ -38,17 +38,18 @@
             <hr>
 
             <div class="form">
-                <form action="mailto:jordan.r.servos@outdoorful.com">
+                <form method="post" name="myemailform" action="form-to-email.php">
+                    <!--struggled with figuring out the actual form to email php code!-->
                     <label for="fname">Name</label>
-                    <input type="text" id="fname" name="first" placeholder="Your name...">
+                    <input type="text" name="name" placeholder="Your name...">
 
                     <label for="email">Email</label>
-                    <input type="text" id="email" name="fromemail" placeholder="Enter your email...">
+                    <input type="text" name="email" placeholder="Enter your email...">
 
                     <label for="messege">Messege</label>
-                    <input type="text" id="messege" name="bodymessege" style="height: 100px">
+                    <input type="text" name="messege" style="height: 100px">
 
-                    <input type="submit" value="Submit">
+                    <input type="submit" name="submit" value="Submit">
 
                 </form>
             </div>
